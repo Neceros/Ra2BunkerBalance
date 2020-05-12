@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<ModMetaData>
+		<name>Ra2 Bunker Balance</name>
+		<author>Neceros</author>
+		<supportedVersions>
+      <li>1.1</li>
+    </supportedVersions>
+    <modDependencies>
+      <li>
+        <packageId>scarjit.ra2bunker</packageId>
+        <displayName>Ra2Bunker[1.1]</displayName>
+        <steamWorkshopUrl>steam://url/CommunityFilePage/2009500243</steamWorkshopUrl>
+      </li>
+    </modDependencies>
+    <loadAfter>
+      <li>scarjit.ra2bunker</li>
+    </loadAfter>
+    <packageId>neceros.ra2bunkerbalance</packageId>
+		<description>Rebalances Ra2 Bunker to be more vanilla.</description>
+</ModMetaData>

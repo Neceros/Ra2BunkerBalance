@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Ra2_Bunker"]/statBases/MaxHitPoints</xpath>
+        <value>
+    			<MaxHitPoints>800</MaxHitPoints>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Ra2_Bunker"]/terrainAffordanceNeeded</xpath>
+        <value>
+          <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Ra2_Bunker"]/constructionSkillPrerequisite</xpath>
+        <value>
+          <constructionSkillPrerequisite>9</constructionSkillPrerequisite>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="Ra2_Bunker"]</xpath>
+        <value>
+          <researchPrerequisites>
+            <li>Machining</li>
+          </researchPrerequisites>
+          <killedLeavings>
+            <ChunkSlagSteel>4</ChunkSlagSteel>
+          </killedLeavings>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+
+</Patch>
